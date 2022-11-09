@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* banner section  */
+.banner{
+    background-image: url(./image/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.banner-text h1{
+    font-size: 50px;
+    
+}
+.banner-text h3{
+    color: tomato;
+}
+.banner-text p{
+    color: rgb(83, 83, 83);
+    margin: 30px 0px;
+}
+.banner-text .name{
+    color: orange;
+}
+.banner-img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.banner-img img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(40deg, rgb(250, 53, 18),rgb(255, 109, 68));
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+
+/* about section  */
+.about{
+    background-image: url(./image/dream-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: right;
+}
+.about-img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 100px;
+
+}
+.about-text span{
+    color: orange;
+}
+.about-text h1{
+    font-size: 35px;
+}
+.about-text h4{}
+.about-text p{
+    color: rgb(133, 133, 133);
+    margin: 30px 0px;
+}
+
+/* exp section  */
+.exp{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+.exp-text{
+    width: 40%;
+    height: 60%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    margin-top: 50px;
+}
+.exp-text h1{}
+.exp-text h5{
+    color: orange;
+    margin: 10px 0;
+}
+.exp-text p{
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+#text1{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg, rgb(249, 45, 9),rgb(253, 212, 30)) ;
+    border-image-slice:1 ;
+}
+#text2{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg, rgb(17, 9, 249),rgb(12, 244, 248)) ;
+    border-image-slice:1 ;
+}
+
+
+/* footer section  */
+footer p{
+    text-align: center;
+}
