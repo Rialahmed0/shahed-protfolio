@@ -116,7 +116,24 @@ body{
     border-image:linear-gradient(180deg, rgb(17, 9, 249),rgb(12, 244, 248)) ;
     border-image-slice:1 ;
 }
-
+/* last work section  */
+.my-last-work{
+    background-image: url(./image/latest-work-bg.png);
+    height: 500px;
+}
+.my-last-work h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.my-last-work-img{
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+}
+.my-last-work-img img{
+    width: 100%;
+}
 
 /* footer section  */
 footer p{
